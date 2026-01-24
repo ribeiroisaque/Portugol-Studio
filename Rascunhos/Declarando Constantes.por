@@ -3,8 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Excluir no 
-		Windows")
+		const inteiro IDADE = 38
+		const real NOTA = 7.5
+		
+		escreva(IDADE)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -12,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 80; 
+ * @POSICAO-CURSOR = 108; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
