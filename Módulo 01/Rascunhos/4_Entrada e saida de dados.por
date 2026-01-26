@@ -1,9 +1,9 @@
 programa
-{ 
+{ 
    // Esse programa foi criado durante a aula 05 do módulo 01
 	
 	funcao inicio()
-	{    
+	{    
 	     const inteiro MAIORIDADE = 21
 		inteiro idade
 		escreva("Olá, qunatos anos você tem? ")
