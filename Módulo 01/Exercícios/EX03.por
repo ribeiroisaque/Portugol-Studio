@@ -1,6 +1,6 @@
 programa
 {
-	// EX:003 - Ante e depois
+	// EX:003 - Ante e depois //
 	funcao inicio()
 	{
 		inteiro n inteiro sus inteiro ant
