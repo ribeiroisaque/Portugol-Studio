@@ -1,6 +1,7 @@
 programa
 {
-	// EX:003 - Ante e depois //
+	/* EX:003 - Programa para calcular o antecessor e o sucessor
+	            de um número qualquer. */
 	funcao inicio()
 	{
 		inteiro n inteiro sus inteiro ant
@@ -18,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 40; 
+ * @POSICAO-CURSOR = 108; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

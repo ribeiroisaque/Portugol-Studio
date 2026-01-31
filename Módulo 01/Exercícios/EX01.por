@@ -1,6 +1,7 @@
 programa
 {
-	
+	/* EX: OO1 - Programa que pergunte o seu nome e,  exiba o, no console
+	             com uma frase personalizada.*/
 	funcao inicio()
 	{
 	     cadeia nome
@@ -14,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 124; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
