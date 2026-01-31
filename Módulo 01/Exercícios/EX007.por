@@ -1,7 +1,7 @@
 programa
-{	
+{
 	inclua biblioteca Matematica --> m
-	/*
+	/*
 	   EX: 007 - Programa que recebe a largura e a  altura de uma parede:
 	   calcule a área dela e quantos litro de tinta, é necessário para pinta-la.
 	*/
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 49; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
