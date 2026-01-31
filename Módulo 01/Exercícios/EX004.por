@@ -1,10 +1,10 @@
 programa
 {
+	inclua biblioteca Tipos --> t
 	/* 
 	   EX: 004 - Programa que recebe dois números inteiros e realiza as operações aritméticas:
                   soma, subração, multiplicação, divisão inteira, divisão real, e resto da divisão.
      */
-	inclua biblioteca Tipos --> t
 	funcao inicio()
 	{
 		inteiro n1, n2
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 106; 
+ * @POSICAO-CURSOR = 41; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

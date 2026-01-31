@@ -1,10 +1,10 @@
 programa
 {
-	/*
+	inclua biblioteca Matematica --> m
+	/*
 	   EX: 006 - Programa recebe uma distãncia em metros e converte para
 	             KM, HM, DAM, DM, CM e MM.
 	*/
-	inclua biblioteca Matematica --> m
 	funcao inicio()
 	{
 		real dis
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 306; 
+ * @POSICAO-CURSOR = 46; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,10 +1,10 @@
 programa
-{
+{	
+	inclua biblioteca Matematica --> m
 	/*
-	   Programa que recebe a largura e a  altura de uma parede:
+	   EX: 007 - Programa que recebe a largura e a  altura de uma parede:
 	   calcule a área dela e quantos litro de tinta, é necessário para pinta-la.
 	*/
-	inclua biblioteca Matematica --> m
 	funcao inicio()
 	{
 		escreva("Informação importante: um litro de tinta pinta 2m²\n")
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 128; 
+ * @POSICAO-CURSOR = 49; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
