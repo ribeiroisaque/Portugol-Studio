@@ -1,7 +1,10 @@
 programa
 {
-	inclua biblioteca Matematica --> m
-	/* EX:005 - Programa que cálcula a média de um aluno*/
+	inclua biblioteca Matematica --> m
+	/* 
+	   EX:005 - Programa que recebe duas notas de aluno,
+	            calcula e exiba, a sua média.
+	*/
 	funcao inicio()
 	{
 		real n1, n2,  m
@@ -21,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 362; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
