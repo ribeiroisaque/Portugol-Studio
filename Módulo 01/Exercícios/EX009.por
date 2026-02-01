@@ -2,7 +2,7 @@ programa
 {
 	inclua biblioteca Tipos --> t
 	inclua  biblioteca Matematica --> m
-	/* 
+     /* 
 	   Programa que lê o nome, o salário, e o aumento percentual
 	   de reajuste: sabendo disso,calcule seu novo salário.
 	*/
