@@ -2,7 +2,7 @@ programa
 {
 	inclua biblioteca Tipos --> t 
 	inclua biblioteca Matematica --> m
-	/*EX: 010 - Programa que pergunta há quntos anos vocè fuma,
+	/*EX: 010 - Programa que pergunta há quntos anos vocè fuma,
 	            e quantos cigarros fuma por dia:
 	            sabendo que a cada cigarro fumado vocè perde 10 minutos de vida:
 	            Calcule quantos cigarros você já fumou durante sua vida,
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 610; 
+ * @POSICAO-CURSOR = 80; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
