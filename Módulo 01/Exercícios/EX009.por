@@ -3,8 +3,8 @@ programa
 	inclua biblioteca Tipos --> t
 	inclua  biblioteca Matematica --> m
      /* 
-	   Programa que lê o nome, o salário, e o aumento percentual
-	   de reajuste: sabendo disso,calcule seu novo salário.
+	   EX: 009 - Programa que lê o nome, o salário, e o aumento percentual
+	             de reajuste: sabendo disso,calcule seu novo salário.
 	*/
 	funcao inicio()
 	{
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 86; 
+ * @POSICAO-CURSOR = 247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
