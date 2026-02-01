@@ -1,14 +1,13 @@
 programa
 {
-	inclua biblioteca Util
+	
 	funcao inicio()
-	{
-		inteiro n = sorteia(1,10)
-		escreva("Aguarde... Gerando valor... ")
-		Util.aguarde(2000)
-		escreva("Eu gerei o valor " + n)
-		Util.aguarde(2000)
-		escreva("... Acabou")
+	{	
+		inteiro num, d
+		escreva("Digite um número ")
+		leia(num)
+		d = num * 2
+		escreva("O dobro de " + num + " é " + d)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 128; 
+ * @POSICAO-CURSOR = 163; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
