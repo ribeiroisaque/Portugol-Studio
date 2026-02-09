@@ -1,22 +1,31 @@
 programa
 {
-	inclua biblioteca Matematica --> m
 	/* 
-	   EX:005 - Programa que recebe duas notas de aluno,
-	            calcula e exiba, a sua média.
+	   Ex005: Programa que recebe duas notas de um aluno
+	   depois calcula e exibe a sua média.
+	   Autor: Isaque
 	*/
+	
+	inclua biblioteca Matematica --> m
+	
 	funcao inicio()
 	{
-		real n1, n2,  m
+		// Delcaração de variáveis
+		real n1, n2, m
+
+		// Entrada de dados
 		escreva("Prineiro nota: ")
 		leia(n1)
 		escreva("Segunda nota: ")
 		leia(n2)
 
+		// Cálculos
 		m = (n1+n2)/2
 
+		// Resultados finais
 		escreva("\nAs notas do aluno foram " + n1 + " e " + n2)
 		escreva("\nA média final foi " + m.arredondar(m,2) )
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 135; 
+ * @POSICAO-CURSOR = 80; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

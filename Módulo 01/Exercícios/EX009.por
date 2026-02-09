@@ -1,16 +1,18 @@
 programa
 {
+     /* 
+	   Ex009: Programa que lê o nome, o salário e o aumento percentual do salário de 
+	   um funcionário: calcule seu novo salário.
+	   Autor: Isaque
+	*/
+	
 	inclua biblioteca Tipos --> t
 	inclua  biblioteca Matematica --> m
-     /* 
-	   EX: 009 - Programa que lê o nome, o salário, e o aumento percentual
-	             de reajuste: sabendo disso,calcule seu novo salário.
-	*/
+	
 	funcao inicio()
 	{
 		cadeia nome
-		real sal, nsal, aum
-		inteiro reaj
+		real sal, nsal, aum,reaj
 		
 		escreva("Nome do funcionário: ")
 		leia(nome)
@@ -22,10 +24,12 @@ programa
 		aum = sal * reaj / 100
 		nsal = sal + aum
 		
-		escreva("\n---------- RESULTADO ----------\n")
-		escreva(nome + " ganhava R$"+sal)
-		escreva("\ne depois de ganhar %"+ reaj + " de aumento")
-		escreva("\nvai passar a gahar R$" + m.arredondar(nsal,2))
+		escreva("\n----------- RESULTADO -----------\n")
+		escreva("O funcionário " + nome + " ganhava R$"+sal)
+		escreva("\nDepois de ganhar %"+ reaj + " de aumento,")
+		escreva("\nvai passar a ganhar R$" + aum + " a mais por mês.")
+		escreva("\nSeu novo salário será de R$" + m.arredondar(nsal,2))
+		escreva("\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 247; 
+ * @POSICAO-CURSOR = 122; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

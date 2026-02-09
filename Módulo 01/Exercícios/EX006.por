@@ -1,24 +1,31 @@
 programa
 {
-	inclua biblioteca Matematica --> m
 	/*
-	   EX: 006 - Programa recebe uma distãncia em metros e converte para
-	             KM, HM, DAM, DM, CM e MM.
+	   Ex006: Programa recebe uma distância em metros e converte-as nas seguintes medidas
+	   KM, HM, DAM, DM, CM e MM.
+	   Autor: Isaque
 	*/
+	
+	inclua biblioteca Matematica --> m
+	
 	funcao inicio()
 	{
-		real dis
+		// Declaração de variáveis
+		real dist
+
+		// Entrada de dados
 		escreva("Distância em metros: ")
-		leia(dis)
+		leia(dist)
 
-		escreva("\n--------- CONVERTENDO ---------\n")
-		escreva(dis/1000 + " Km \n")
-		escreva(dis/100 + " Hm \n")
-		escreva(dis/10 + " Dam \n")
-
-		escreva(dis*10 + " dm \n")
-		escreva(dis*100 + " cm \n")
-		escreva(dis*1000 + " mm \n")
+		// Resultados finais
+		escreva("\n----- CONVERTENDO " + dist + " -----\n")
+		escreva("|" + dist/1000 	+ " Km \n")
+		escreva("|" + dist/100 	+ " Hm \n")
+		escreva("|" + dist/10 	+ " Dam \n")
+		escreva("|" + dist*10 	+ " dm \n")
+		escreva("|" + dist*100 	+ " cm \n")
+		escreva("|" + dist*1000 	+ " mm \n")
+		escreva("v\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 46; 
+ * @POSICAO-CURSOR = 101; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
