@@ -1,6 +1,13 @@
 programa
 {
+	/*
+	   Ex011: Programa pergunta em que idade você mora, exiba-o nome da cidade
+	   em caixa alta, mostre a primeira letra e a quantidade de caracteres.
+	   Autor: Isaque
+	*/
+	
 	inclua biblioteca Texto --> txt
+	
 	funcao inicio()
 	{
 		cadeia cidade, caixa_alta  
@@ -9,10 +16,11 @@ programa
 		
 		escreva("Em que cidade você mora? ")
 		leia(cidade)
-		
+
 		caixa_alta = txt.caixa_alta(cidade)
 		primeira_letra = txt.obter_caracter(caixa_alta, 0)
 		numero_caracter = txt.numero_caracteres(cidade)
+		
 		escreva("\n--------- ANALIZANDO ---------\n")
 		escreva("Você mora na cidade " + caixa_alta)
 		escreva("\nA primeira letra é " + primeira_letra)
@@ -24,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 552; 
+ * @POSICAO-CURSOR = 733; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
