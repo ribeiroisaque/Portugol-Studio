@@ -1,10 +1,11 @@
 programa
 {
-	/*
+	
+    /*
 	   Programa que pergunte seu nome completo, depois exiba
 	   apenas seu primeiro nome
 	   Autor: Isaque
-     */
+    */
 
      inclua biblioteca Texto --> t
      
@@ -24,6 +25,7 @@ programa
 		escreva("\n\n")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
