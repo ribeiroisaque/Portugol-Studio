@@ -1,0 +1,36 @@
+programa
+{
+	/*
+	   Ex013: Programa que ler duas notas de um aluno, exibindo no final sua média
+	   e se a média for acima de 8 deixe uma mensagem de parabens.
+	   Autor: Isaque
+	*/
+	funcao inicio()
+	{
+		real not1, not2, med
+
+		escreva("Digite a primeira nota: ")
+		leia(not1)
+		escreva("Digite a segunda nota: ")
+		leia(not2)
+
+		med = (not1+not2)/2
+
+		escreva("\n--------- ANALIZANDO ---------\n")
+		se(med >= 8){
+			escreva("MEUS PARABÉNS! ")
+		}
+		escreva("A sua média final foi de " + med + "\n")
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 366; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

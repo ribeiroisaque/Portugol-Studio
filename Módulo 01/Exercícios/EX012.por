@@ -2,9 +2,9 @@ programa
 {
 	
     /*
-	   Programa que pergunte seu nome completo, depois exiba
-	   apenas seu primeiro nome
-	   Autor: Isaque
+	  Ex012: Programa que pergunte seu nome completo, depois exiba
+	  apenas seu primeiro nome
+	  Autor: Isaque
     */
 
      inclua biblioteca Texto --> t
@@ -20,7 +20,7 @@ programa
 		pnome = t.extrair_subtexto(nome, 0, pos)
 		grande = t.caixa_alta(pnome)
 
-		escreva("----------- ANALIZANDO ----------")
+		escreva("\n----------- ANALIZANDO ----------")
 		escreva("\nSeu primeiro nome é " + grande)
 		escreva("\n\n")
 	}
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 509; 
+ * @POSICAO-CURSOR = 418; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
