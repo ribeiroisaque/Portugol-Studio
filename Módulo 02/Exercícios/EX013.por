@@ -1,8 +1,9 @@
 programa
 {
-	/*
-	   Ex013: Programa que ler duas notas de um aluno, exibindo no final sua média
-	   e se a média for acima de 8 deixe uma mensagem de parabens.
+	
+    /*
+	   Ex013: Programa que ler duas notas de um aluno, exibindo sua média final.
+	   Se a média for acima de 7.0 deixe uma mensagem de parabens.
 	   Autor: Isaque
 	*/
 	funcao inicio()
@@ -23,6 +24,7 @@ programa
 		escreva("A sua média final foi de " + med + "\n")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
