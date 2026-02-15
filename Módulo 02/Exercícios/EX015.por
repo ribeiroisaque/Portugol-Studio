@@ -1,9 +1,10 @@
 programa
 {
-	/*
-	   EX015: Programa que ler o ano de nascimento de uma pesso,
-	   no final o resultado e se a idade for maior que 65 anos
-	   exiba uma mensagem para se dirigir a fila preferencial.
+	
+    /*
+	   EX015: Programa que ajuda um BANCO, lendo em que ano uma pessoa nasceu e calcula
+       de acorddo com a sua idade atual. Mostre se ela deve ou não ir á fila
+       preferencial (IDADE IGUAL OU SUPERIOR A 65 ANOS).
 	*/
 
 	inclua biblioteca Calendario --> c
@@ -16,12 +17,14 @@ programa
 
 		aat = c.ano_atual()
 		idade = aat - ano
-		escreva("Você tem " + idade + " anos, certo? Seja vem-vindo(a) Banco Estudonaura.\n")
+		escreva("Você tem " + idade + " anos, certo? Seja vem-vindo(a) Banco Estudonaura.\n"
+)
 		se(idade >= 65){
 			escreva("==== ATENÇÃO! DIRIJA-SE À FILA PREFERENCIAL! ====\n\n")
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
