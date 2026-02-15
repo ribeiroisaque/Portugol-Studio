@@ -1,8 +1,10 @@
 programa
 {
-	/*
-	   EX014: Programa para ler o valor da compra com 10% de desconto: no final exiba esse valor,e se
-	   o valor da compra for acima de R$500 exiga uma menságem de agradecimento.
+	
+/*
+	   EX014: Programa que leia o valor total das compras de um cliente e mostra uma mensagem 
+       especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 
+       10% de desconto.
 	   Autor: Isaque
 	*/
 	funcao inicio()
@@ -24,6 +26,7 @@ programa
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
