@@ -3,7 +3,7 @@ programa
 	
     /*
 	   EX015: Programa que ajuda um BANCO, lendo em que ano uma pessoa nasceu e calcula
-       de acorddo com a sua idade atual. Mostre se ela deve ou não ir á fila
+       a sua idade de acorddo com o ano atual. Mostre se ela deve ou não ir á fila
        preferencial (IDADE IGUAL OU SUPERIOR A 65 ANOS).
 	*/
 
@@ -36,3 +36,4 @@ programa
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
+
