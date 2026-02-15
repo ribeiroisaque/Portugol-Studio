@@ -1,12 +1,12 @@
 programa
 {
 	
-    /*
+     /*
 	   EX014: Programa que leia o valor total das compras de um cliente e mostra uma mensagem 
-       especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 
-       10% de desconto.
+        especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 
+        10% de desconto.
 	   Autor: Isaque
-	*/
+     */
 	funcao inicio()
 	{
 		real val, desc, nval
@@ -32,10 +32,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 94; 
+ * @POSICAO-CURSOR = 257; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
-

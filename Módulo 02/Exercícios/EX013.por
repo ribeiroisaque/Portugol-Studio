@@ -1,11 +1,11 @@
 programa
 {
 	
-    /*
+     /*
 	   Ex013: Programa que ler duas notas de um aluno, exibindo sua média final.
 	   Se a média for acima de 7.0 deixe uma mensagem de parabens.
 	   Autor: Isaque
-	*/
+     */
 	funcao inicio()
 	{
 		real not1, not2, med
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 366; 
+ * @POSICAO-CURSOR = 18; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
