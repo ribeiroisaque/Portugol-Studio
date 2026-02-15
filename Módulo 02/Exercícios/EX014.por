@@ -1,7 +1,7 @@
 programa
 {
 	
-/*
+    /*
 	   EX014: Programa que leia o valor total das compras de um cliente e mostra uma mensagem 
        especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 
        10% de desconto.
@@ -38,3 +38,4 @@ programa
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
+
