@@ -16,7 +16,7 @@ programa
 		atual = c.ano_atual()
 		idade = atual - nasc
 		
-		escreva("----------------------------")
+		escreva("----------------------------")
 		escreva("\nAtualmente você tem: " + idade + " anos de idade. Certo?\n")
 		se(idade < 16){
 			escreva("Você ainda não tem a idade mínima para se alistar.\n\n")
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 16; 
+ * @POSICAO-CURSOR = 373; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

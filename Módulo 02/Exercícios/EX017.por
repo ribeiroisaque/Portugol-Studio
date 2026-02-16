@@ -1,6 +1,6 @@
 programa
 {
-	/*
+     /*
 	  Ex017: Programa para verificar se um ano digitado pelo usúario é ou não bissexto.
 	  Autor: Isaque
     */
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 269; 
+ * @POSICAO-CURSOR = 125; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
