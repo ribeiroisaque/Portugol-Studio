@@ -1,6 +1,7 @@
 programa
 {
-	/*
+	
+    /*
 	   Ex018: Programa para calcular o valor de uma viagem com base na distância total percorrida.
 	   Viagens com menos de 200km são cobradas R$0.50 por km, enqunto viagens iguais ou
 	   superiores a 200km são cobradas  R$0.35 por km.
@@ -13,7 +14,8 @@ programa
 		escreva("Informe a distância total da viagem,em Km: ")
 		leia(dis)
 		escreva("\n      ===== ANALIZANDO =====      \n")
-		se(dis < 200){
+		
+se(dis < 200){
 
 			viagem = dis * 0.50
 			escreva("Uma viagem  de " + dis + "Km vai custar R$0.50/Km. \nO valor total da viagem será de: R$" + viagem + "\n\n")
@@ -23,6 +25,7 @@ programa
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
