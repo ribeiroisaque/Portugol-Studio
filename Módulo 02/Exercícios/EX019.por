@@ -1,10 +1,11 @@
 programa
 {
-	/*
+	
+    /*
 	   Ex019: Programa para calcular o inverso ou o oposto de um número inserido pelo usuário;
-        Se o número for positivo, calcule o inverso. Se o número por negativo calcule o oposto.
-        Autor: Isaque
-     */
+       Se o número for positivo, calcule o inverso. Se o número por negativo calcule o oposto.
+       Autor: Isaque
+    */
 
      inclua biblioteca Matematica --> m
      inclua biblioteca Tipos --> t
@@ -25,6 +26,7 @@ programa
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
