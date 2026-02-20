@@ -1,6 +1,7 @@
 programa
 {
-	/*
+	
+/*
 	   Ex025 Programa para ler três números inteiros e colocá-los em ordem crescente
 	   Autor: Isaque
      */
