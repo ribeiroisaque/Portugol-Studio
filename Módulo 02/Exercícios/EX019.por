@@ -2,7 +2,7 @@ programa
 {
 	
     /*
-	   Ex019: Programa para calcular o inverso ou o oposto de um número inserido pelo usuário;
+	  Ex019: Programa para calcular o inverso ou o oposto de um número inserido pelo usuário;
        Se o número for positivo, calcule o inverso. Se o número por negativo calcule o oposto.
        Autor: Isaque
     */
@@ -11,19 +11,23 @@ programa
      inclua biblioteca Tipos --> t
 	funcao inicio()
 	{
-		inteiro n, opos
-		real inv
+		escreva("\n===== Números positivos: INVERSO | Outros: OPOSTO =====\n")
+		inteiro num
 		
 		escreva("Digite um número: ")
-		leia(n)
-		
-		se(n < 0){
-			opos = n * (-1)
-			escreva("\nO oposto de " + n + " é " + opos)
-		}senao se(n >= 0){
-			inv = t.inteiro_para_real(1) / n
-			escreva("\nO inverso de " + n + " é " + (inv))
+		leia(num)
+
+		real resp
+		se(num > 0){
+			
+			resp = t.inteiro_para_real(1) / num
+		}senao{
+			resp = t.inteiro_para_real(num) * (-1)
+			
 		}
+		escreva("O oposto de " + num + " é igual a " + resp)
+		escreva("\nO inverso de " + num + " é igual a " + resp)
+		escreva("\n\n")
 	}
 }
 
@@ -32,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 591; 
+ * @POSICAO-CURSOR = 606; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

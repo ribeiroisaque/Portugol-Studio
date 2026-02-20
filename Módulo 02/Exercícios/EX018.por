@@ -7,22 +7,36 @@ programa
 	   superiores a 200km são cobradas  R$0.35 por km.
 	   Autor: Isaque
 	*/
+	inclua biblioteca Matematica --> m
 	funcao inicio()
 	{
-		real dis,viagem
+		// Cabeçalho do programa
+		escreva("\n	VIAÇÃO ESTUDONAUTA	")
+		escreva("\n------------------------------------------")
+		escreva("\nVIAGENS ATÉ 200Km:	\tR$0,50/Km") // Tabulações para organizar
+		escreva("\nVIAGENS ACIMA DE 200Km:	\tR$0,35/Km")
 		
-		escreva("Informe a distância total da viagem,em Km: ")
-		leia(dis)
+		real km, fator, total
+		
+		escreva("\nInforme a distância total da viagem,em Km: ")
+		leia(km)
 		escreva("\n      ===== ANALIZANDO =====      \n")
 		
-se(dis < 200){
+          se(km <= 200){
 
-			viagem = dis * 0.50
-			escreva("Uma viagem  de " + dis + "Km vai custar R$0.50/Km. \nO valor total da viagem será de: R$" + viagem + "\n\n")
-		}senao se(dis >= 200){
-			viagem = dis * 0.35 
-			escreva("Uma viagem de" + dis+ "Km vai custar R$0.35/Km.\nnO valor total da viagem será de: R$" + viagem + "\n")
+			fator =  0.50
+			
+		}senao {
+
+			fator = 0.35
+			
 		}
+
+		total = km * fator
+		
+		escreva("Uma viagem  de " + km + "Km vai custar R$" + m.arredondar(fator, 2) + "/Km.")
+		escreva("\nO valor TOTAL da viagem será de: R$" + total + "/Km")	
+		escreva("\n\n")
 	}
 }
 
@@ -31,7 +45,7 @@ se(dis < 200){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 290; 
+ * @POSICAO-CURSOR = 691; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

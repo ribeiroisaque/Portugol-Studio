@@ -18,11 +18,12 @@ programa
 		
 		escreva("----------------------------")
 		escreva("\nAtualmente você tem: " + idade + " anos de idade. Certo?\n")
-		se(idade < 16){
+		se(idade < 18){
 			escreva("Você ainda não tem a idade mínima para se alistar.\n\n")
 		}senao{
-			escreva("Espero que você já tenha se alistado.\n\n")
+			escreva("Espero que você já tenha se alistado.")
 		}
+		escreva("\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 373; 
+ * @POSICAO-CURSOR = 502; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

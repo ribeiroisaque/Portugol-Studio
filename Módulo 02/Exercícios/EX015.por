@@ -18,11 +18,14 @@ programa
 
 		aat = c.ano_atual()
 		idade = aat - ano
-		escreva("Você tem " + idade + " anos, certo? Seja vem-vindo(a) Banco Estudonaura.\n"
-)
+		escreva("Você tem " + idade + " anos, certo?")
+		escreva("\nSeja vem-vindo(a) Banco Estudonauta.")
+		escreva("\n--------------------------------------")
+
 		se(idade >= 65){
-			escreva("==== ATENÇÃO! DIRIJA-SE À FILA PREFERENCIAL! ====\n\n")
+			escreva("\n==== ATENÇÃO! DIRIJA-SE À FILA PREFERENCIAL! ====")
 		}
+		escreva("\n\n")
 	}
 }
 
@@ -31,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 265; 
+ * @POSICAO-CURSOR = 644; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

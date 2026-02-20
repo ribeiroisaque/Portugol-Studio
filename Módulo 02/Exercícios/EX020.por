@@ -9,9 +9,10 @@ programa
      inclua biblioteca Calendario --> c
 	funcao inicio()
 	{
-		escreva("============ CINEMA ESTUDONAUTA ============\n")
-		escreva("\nHORÁRIO DO FILME:		13:00H")
-		escreva("\nPREÇO DO INGRESSO:		45.00 REAIS\n")
+		// Cabeçalho do programa
+		escreva("============ CINEMA ESTUDONAUTA ============\n") // Tabulações para organizar
+		escreva("\nHORÁRIO DO FILME:\t\t13:00H")                     
+		escreva("\nPREÇO DO INGRESSO:\t\t45.00 REAIS\n")
 	     escreva("\n============================================")
 
 		real din
@@ -22,11 +23,12 @@ programa
 		leia(din)
 
 		escreva("============================================")
-		se(din >= 45 e hatual < 13.00){
-			escreva("\nVocê consegue comprar o ingresso\n\n")
+		se(din >= 45 e hatual < 45.00){
+			escreva("\nVocê consegue comprar o ingresso")
 		}senao{
-			escreva("\nInfelizmente, não é possível comprar o ingresso.\n\n")
+			escreva("\nInfelizmente, não é possível comprar o ingresso.")
 		}
+		escreva("\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -34,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 916; 
+ * @POSICAO-CURSOR = 966; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,6 @@
 programa
 {
-	/*
+	/*
 	   Ex021: Programa para saber se um número digitado pelo usuário é positivo, negativo ou nulo.
 	   Autor: Isaque
      */
@@ -12,14 +12,15 @@ programa
 		escreva("Digite um número: ")
 		leia(num)
 
-		escreva("O número digitado foi: " + num)
+		escreva("O número digitado é: ")
 		se(num > 0){
-			escreva(" e ele pe positivo.")
+			escreva("POSITIVO.")
 		}senao se(num < 0){
-			escreva(" e ele é negativo.")
+			escreva("NEGATIVO.")
 		}senao{
-			escreva(" e ele é neutro")
+			escreva("NULO")
 		}
+		escreva("\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 421; 
+ * @POSICAO-CURSOR = 389; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

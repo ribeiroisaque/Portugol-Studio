@@ -7,6 +7,7 @@ programa
         10% de desconto.
 	   Autor: Isaque
      */
+     inclua biblioteca Matematica --> m
 	funcao inicio()
 	{
 		real val, desc, nval
@@ -18,12 +19,13 @@ programa
 		nval = val - desc
 		
 		escreva("---------------------------------")
-		escreva("\nVoce comprou R$" + val + " na nossa loja. Obrigado!\n\n")
+		escreva("\nVoce comprou R$" + m.arredondar(val,2) + " na nossa loja. Obrigado!\n\n")
 		se( val >= 500) {
-			escreva("	======= ATENÇÃO =======	")
-			escreva("\nPor fazer mais de R$500 em compras, você vai receber R$" + desc + " de desconto.")
-			escreva("\nO valor a ser pago é de " + nval + "! Volte sempre!\n\n")
+			escreva("    ======= ATENÇÃO =======    ")
+			escreva("\nPor fazer mais de R$500 em compras, \nvocê vai receber R$" + m.arredondar(desc,2) + " de desconto.")
+			escreva("\nO valor a ser pago é de " + m.arredondar(nval,2) + "! Volte sempre!")
 		}
+		escreva("\n\n")
 	}
 }
 
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 257; 
+ * @POSICAO-CURSOR = 648; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
