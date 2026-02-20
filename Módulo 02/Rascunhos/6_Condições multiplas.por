@@ -8,7 +8,8 @@ programa
 		escreva("Digite um número pequeno: ")
 		leia(num)
 		
-		escolha(num){
+		
+escolha(num){
 			caso 1:
 				escreva("Um.")
 				pare
