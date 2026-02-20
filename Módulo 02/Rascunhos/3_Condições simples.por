@@ -1,6 +1,8 @@
 programa
-{ 
-	inclua biblioteca Calendario --> c
+{
+ 
+	
+inclua biblioteca Calendario --> c
 	funcao inicio()
 	{
 		/*
