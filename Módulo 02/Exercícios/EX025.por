@@ -6,11 +6,11 @@ programa
 			Ex025 Programa para ler três números inteiros e colocá-los em ordem crescente
 			Autor: Isaque
 		*/
-		inteiro a, b, c, maior,menor, meio
+		inteiro a, b, c, maior, menor, meio
 		
 		escreva("Primeiro valor: ")
 		leia(a)
-		escreva("Segundovalor: ")
+		escreva("Segundo valor: ")
 		leia(b)
 		escreva("Terceiro valor: ")
 		leia(c) 
@@ -23,7 +23,7 @@ programa
 					maior = a
 					meio = c 
 					menor = b 
-				} senao se( c<a){
+				} senao{
 					maior = a
 					meio = b
 					menor= c
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 460; 
+ * @POSICAO-CURSOR = 616; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
