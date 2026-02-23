@@ -9,7 +9,8 @@ programa
 		leia(n1)
 		escreva("Segundo valor: " )
 		leia(n2)
-		escreva("Terceiro valor: ")
+		escreva("
+Terceiro valor: ")
 		leia(n3)
 
 		se(n1>n2){
