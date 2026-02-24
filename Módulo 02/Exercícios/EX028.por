@@ -1,11 +1,12 @@
 programa
 {
-	/*
+	
+   /*
 	  EX028: Programa para calcular o preço de um produto com base em épocas especificas no ano.
 	  O usúario fornece o preço original do produto e escolhe um periodo do ano.
 	  O programa calcula o novo preço considerando descontos ou aoumentos baseados na época.
 	  Autor: Isaque
-    */
+   */
 	funcao inicio()
 	{
 		real preco, desc = 0, aum = 0
@@ -54,6 +55,7 @@ programa
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
