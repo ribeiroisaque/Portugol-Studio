@@ -1,11 +1,12 @@
 programa
 {
-	/*
+	
+   /*
 	  EX027: Programa pergunta qual o peso de uma pessoa aqui na terra: 
 	  Descubra qual o peso dela nos seguintes planetas do sistema solar:
 	  (MERCÚRIO, VÊNUS, MARTE, JÚPITER,SATURNO E URANO)
 	  Autor: Isaque
-    */
+   */
 	funcao inicio()
 	{
 		caracter opcao
@@ -61,6 +62,7 @@ programa
 		escreva("\n\t   VOLTE SEMPRE!   \t\n")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
