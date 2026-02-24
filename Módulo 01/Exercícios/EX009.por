@@ -1,6 +1,6 @@
 programa
 {
-     /* 
+    /* 
 	   Ex009: Programa que lê o nome, o salário e o aumento percentual do salário de 
 	   um funcionário: calcule seu novo salário.
 	   Autor: Isaque
