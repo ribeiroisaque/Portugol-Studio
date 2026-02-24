@@ -1,6 +1,10 @@
 programa
 {
-	
+	/*
+	  Ex025 Programa que solicita três números inteiros ao usuário.
+	  Orgnize-os em ordem crescente(do menor para o maior) e exibe o resultado.
+	  Autor: Isaque
+    */
 	funcao inicio()
 	{
 		inteiro n1, n2, n3, ma, me, mi
@@ -9,7 +13,7 @@ programa
 		leia(n1)
 		escreva("Segundo valor: " )
 		leia(n2)
-		escreva("Terceiro valor: ")
+		escreva("Terceiro valor: ")
 		leia(n3)
 
 		se(n1>n2){
@@ -52,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 643; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
