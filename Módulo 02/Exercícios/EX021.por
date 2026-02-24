@@ -3,7 +3,7 @@ programa
 	/*
 	   Ex021: Programa para saber se um número digitado pelo usuário é positivo, negativo ou nulo.
 	   Autor: Isaque
-     */
+    */
 	
 	funcao inicio()
 	{
