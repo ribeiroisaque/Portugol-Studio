@@ -1,8 +1,8 @@
 programa
 {
 	
-     /*
-	  EX015: Programa que ajuda um BANCO, lendo em que ano uma pessoa nasceu e calcula
+    /*
+	   EX015: Programa que ajuda um BANCO, lendo em que ano uma pessoa nasceu e calcula
        a sua idade de acorddo com o ano atual. Mostre se ela deve ou não ir á fila
        preferencial (IDADE IGUAL OU SUPERIOR A 65 ANOS).
        Autor: Isaque
