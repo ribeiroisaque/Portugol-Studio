@@ -1,6 +1,6 @@
 programa
 {
-	/*
+	/*
 	  EX028: Programa para calcular o preço de um produto com base em épocas especificas no ano.
 	  O usúario fornece o preço original do produto e escolhe um periodo do ano.
 	  O programa calcula o novo preço considerando descontos ou aoumentos baseados na época.
@@ -31,26 +31,26 @@ programa
 		escolha(opcao){
 			caso '1':
 			desc = preco + preco * 10 / 100
-			escreva("Na época do CARNAVAL, o preço do produto sobe para R$" + desc)
+			escreva("Na época do CARNAVAL, \no preço do produto sobe para R$" + desc)
 			pare
 			caso '2':
 			desc = preco + preco * 20 / 100
-			escreva("Na época das FÉRIAS ESCOLARES, o preço do produto sobe para R$" + desc)
+			escreva("Na época das FÉRIAS ESCOLARES, \no preço do produto sobe para R$" + desc)
 			pare
 			caso '3':
 			desc = preco + preco * 5 / 100
-			escreva("Na época do DIA DAS CRIANÇAS, o preço do produto sobe para R$" + desc)
+			escreva("Na época do DIA DAS CRIANÇAS, \no preço do produto sobe para R$" + desc)
 			pare
 			caso '4':
 			aum = preco - preco * 30 / 100
-			escreva("Na época da BLACK FRIDAY, o preço do produto cai para R$" + aum)
+			escreva("Na época da BLACK FRIDAY, \no preço do produto cai para R$" + aum)
 			pare
 			caso '5':
 			aum = preco - preco * 5 / 100
-			escreva("Na época do NATAL, o preço do produto cai para R$" + aum)
+			escreva("Na época do NATAL, \no preço do produto cai para R$" + aum)
 			pare
 			caso contrario:
-			escreva("Em épocas diferentes o preço do poduto permanece o mesmo.")
+			escreva("Em épocas diferentes \no preço do poduto permanece  de " + preco )
 		}
 	}
 }
@@ -59,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1649; 
+ * @POSICAO-CURSOR = 1630; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
