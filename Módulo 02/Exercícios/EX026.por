@@ -1,12 +1,12 @@
 programa
 {
-     /*
+   /*
 	  Ex026: Super Tabuada 1.0: Programa que realiza as seguintes operações aritméricas
 	  (adição, subtração, multiplicação e divisão) de acordo com a escolha do usuário.
 	  Ele exibe um menu para seleção da operação e solicita dois númerios inteiros,
 	  como entrada para calcular o resultado.
 	  Autor: Isaque
-    */ 
+   */ 
 	inclua biblioteca Tipos --> t
 	inclua biblioteca Matematica --> m
 	funcao inicio()
@@ -72,6 +72,7 @@ programa
 		escreva("\n------------------------------------------------\n\n")	
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
@@ -83,3 +84,4 @@ programa
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
+

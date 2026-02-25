@@ -4,7 +4,7 @@ programa
 	   Ex004: Programa que recebe dois números inteiros e realiza as seguintes operações aritméticas:
         Soma, subtração, multiplicação, divisão inteira, divisão real e resto da divisão.
         Autor: Isaque
-     */
+    */
      
      inclua biblioteca Tipos --> t
      
