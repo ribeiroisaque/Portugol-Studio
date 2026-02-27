@@ -1,10 +1,12 @@
 programa
 {
 	inclua biblioteca Matematica --> m
-	inclua biblioteca Tipos --> t
+	inclua biblioteca Tipos
+ --> t
 	
 	funcao inicio()
-	{ 
+	{
+ 
 		inteiro s, n, c, tot
 		real m
 		
