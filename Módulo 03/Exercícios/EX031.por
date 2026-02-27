@@ -1,6 +1,7 @@
 programa
 {
-	/*
+	
+     /*
 	   EX031: Programa que leia o limite inicial de uma contagem regressiva e um número
 	   desejado para multiplos. O programa deverá contar do primeiro ao valor zero,
 	   marcando os respectivos múltiplos.
@@ -26,6 +27,7 @@ programa
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
