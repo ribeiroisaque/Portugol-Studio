@@ -1,6 +1,7 @@
 programa
 {
-	/*
+	
+    /*
 	  EX032: Programa que leia 5 números inteiros, e no final, mostro qual foi
 	  a soma dos números prares e dos números ímpares digitados.
 	  Autor: Isaque
@@ -10,6 +11,7 @@ programa
 		escreva("Olá Mundo")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
