@@ -5,7 +5,8 @@ programa
 	   Mostrando em seguida os valores na tela, de forma gradativa.
 	   Autos: Isaque
 	*/
-	inclua biblioteca Util --> u
+	
+inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro ini, fim, inc, c
@@ -24,7 +25,8 @@ programa
 			c = c + inc
 			u.aguarde(700)
 		}
-		escreva("FIM")
+		
+escreva("FIM")
 	}
 }
 /* $$$ Portugol Studio $$$ 
