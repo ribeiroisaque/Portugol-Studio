@@ -1,6 +1,7 @@
 programa
 {
-	/*
+	
+    /*
 	  EX033: Programa que pergunte quantos números o usúario quer sortear.
 	  Em seguida, exiba os números sorteados, e mostre a soma deles.
 	  Autor: Isaque
@@ -10,6 +11,7 @@ programa
 		escreva("Olá Mundo")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
