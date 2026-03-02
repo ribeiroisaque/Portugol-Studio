@@ -1,6 +1,7 @@
 programa
 {
-	/*
+	
+    /*
 	   EX035: Programa que pergunte quantas pessoas serão cadastradas
 	   e o peso de referência a se considerar. Depois disso,pergunte 
 	   o peso e o sexo de cada pessoa e analize se cada umestá dentro
@@ -13,6 +14,7 @@ programa
 		escreva("Olá Mundo")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
