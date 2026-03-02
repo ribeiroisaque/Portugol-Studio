@@ -3,7 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro c = 1, meninos = 0, meninas = 0
+		caracter sx
+		enquanto(c <= 4){
+			escreva("Digite o sexo: [M/F] ")
+			leia(sx)
+			se(sx == 'M' ou sx == 'm'){
+				meninos++
+			}
+			se(sx == 'F' ou sx == 'f'){
+				meninas++
+			}
+			c++
+		}
+		escreva("O total de meninos é ", meninos)
+		escreva("\nO totla de meninas é ", meninas)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 240; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
