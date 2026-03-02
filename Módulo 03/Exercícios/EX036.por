@@ -1,6 +1,7 @@
 programa
 {
-	/* 
+	
+    /* 
 	   EX036 Programa que pergunte quantos números vamos sortear
 	   e faça o computador gerar esses números sozinhos. No final,
 	   mostre quantos são maiores que cinco e quantos são divisíveis
@@ -12,6 +13,7 @@ programa
 		escreva("Olá Mundo")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
