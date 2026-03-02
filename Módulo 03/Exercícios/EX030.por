@@ -12,17 +12,18 @@ programa
 		
 		escreva("Quer contar até quando? ")
 		leia(num)
+		
 		enquanto(c <= num){
 			se(c % 4 == 0){
-				escreva("PIN \n")
+				escreva("PIN! ") // Múltiplos de 4
 			}senao{
-				escreva(c + " - ")
+				escreva(c, " - ")
 				
 			}
 			c = c + 1
-			u.aguarde(600)
+			u.aguarde(400)
 		}
-		escreva("FIM")
+		escreva("FIM!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 354; 
+ * @POSICAO-CURSOR = 528; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
