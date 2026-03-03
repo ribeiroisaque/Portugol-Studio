@@ -1,6 +1,7 @@
 programa
 {
-	 /*
+	 
+    /*
 	   EX034: Programa que leia 5 números inteiros e mostre no final de tudo,
 	   quantos números pares e ímpares foram digitados. Mostre também a média
 	   de todos os valores pares e dos ímpares. (parece com o ex 32)
@@ -33,6 +34,7 @@ programa
 		escreva("\n\n")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
