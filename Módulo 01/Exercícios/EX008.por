@@ -21,7 +21,7 @@ programa
 		escreva("\n----------------------------------------------")
 		escreva("\nO produto custava R$" + prec + ",agora ")
 		escreva("Com 5% de desconto passará a custar R$" + m.arredondar(nprec,2))
-		escreva("\nAo todo, teremos R$" + m.arredondar(desc,2) + " de econmia>")
+		escreva("\nAo todo, teremos R$" + m.arredondar(desc,2) + " de economia.")
 		escreva("\n\n")
 		
 	}
