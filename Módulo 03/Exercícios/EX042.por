@@ -1,8 +1,9 @@
 programa
-{
+{ 
 	
 	funcao inicio()
-	{	
+	{
+	
 		cadeia nome, maiorSal  = ""
 		caracter sexo, resp
 		real sal, mediaSalH = 0.0, somaSalH = 0.0, maiorSalH = 0.0
