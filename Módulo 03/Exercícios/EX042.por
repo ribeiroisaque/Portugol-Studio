@@ -1,64 +1,56 @@
 programa
 {
-	/*
-	   EX042: Escreva um programa que leia, NOME, SEXO e SALÁRIO de vários funcionários.
-	   O programa tembém deve perguntar se o usúario deve ou não continuar o cadastro. No
-	   final, analise os dados e mostre:
-	   - Total de funcionários cadastrado;
-	   - Total de homens;
-	   - Total de mulheres;
-	   - Média salárial dos homens;
-	   - Total de mulhers que ganham mais de R$1.000,00;
-	   - Maior salário entre os homens;
-	   Autor: Isaque
-	*/
-	inclua biblioteca Matematica --> m
+	
 	funcao inicio()
-	{
-		cadeia nome 
+	{	
+		cadeia nome, maiorSal  = ""
 		caracter sexo, resp
-		real sal, somaSalH = 0.0, mediaSalH = 0.0, maiH = 0.0
-		inteiro tot = 0, toth = 0, totm = 0, totMil = 0
-
+		real sal, mediaSalH = 0.0, somaSalH = 0.0, maiorSalH = 0.0
+		inteiro totP = 0, totH = 0, totM = 0, totMil = 0
 		enquanto(verdadeiro){
-			escreva("NOME: ")
+			escreva("Nome: ")
 			leia(nome)
-			escreva("SEXO [M/F]: ")
+			escreva("Sexo [M/F]: ")
 			leia(sexo)
-			escreva("SALÁRIO: ")
-			leia(sal)
 			
-			tot++
-			se(sexo == 'M' ou sexo == 'm'){
-				toth++
-				somaSalH += sal
-				mediaSalH = somaSalH / toth
-				se(toth == 1){
-					maiH = sal
-				}senao{
-					se(sal > maiH){
-						maiH = sal
-					}
-				}
-			}senao se(sexo == 'F' ou sexo == 'f'){
-				totm++
+			
+			escreva("Salário: R$")
+			leia(sal)
+			totP++
+
+			se(sexo == 'F' ou sexo == 'f'){
+				totM++
 				se(sal > 1000){
 					totMil++
 				}
+			}senao se(sexo == 'M' ou sexo == 'm'){
+				totH++
+				somaSalH += sal
+				mediaSalH = somaSalH / totH
+					se(totH == 1){
+						maiorSalH = sal
+						maiorSal = nome
+					}senao se(sal > maiorSalH){
+						maiorSalH = sal
+						maiorSal = nome
+					}
 			}
-			escreva("Quer continula? ")
+			escreva("-------------------------\n")
+			escreva("Quer continuar? [S/N]: ")
 			leia(resp)
-
-			se(resp == 'N' ou resp == 'n'){
-				pare
-			}
+				se(resp == 'N' ou resp == 'n'){
+					pare
+				}
+			
+			
 		}
-		escreva("Total de pessoas cadastradas: ", tot)
-		escreva("\nTotal de homens: ", toth)
-		escreva("\nTotal de mulheres: ",totm)
-		escreva("\nMédia salárial dos homens: ", m.arredondar(mediaSalH,2))
-		escreva("\nTotal de mulheres que ganham mais de Mil Reais: ", totMil)
-		escreva("\nMaior salário entre os homens: R$", m.arredondar(maiH,2))
+		escreva("====== RESULTADOS ======\n\n")
+		escreva("Total de pessoas cadastradas: ",totP)
+		escreva("\nTotal de homens: ",totH)
+		escreva("\nTotal de mulheres: ",totM)
+		escreva("\nMédia salárial dos homens: ", mediaSalH)
+		escreva("\nTotal de mulheres que ganham mais de Mil Reais: ",totMil)
+		escreva("\nMaior salário entre os homens é do ", maiorSal, " que ganha: ",maiorSalH)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -66,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1541; 
+ * @POSICAO-CURSOR = 744; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
