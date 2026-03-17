@@ -1,13 +1,14 @@
 programa
 {
-	/*
+	
+   /*
 	  EX043: Escreva um programa que leia vários números
 	  usando a estrutura FACA... ENQUANTO. No final, mostre:
 	  - Quantos valores foram digitados;
 	  - Quantos valores pares foram digitados;
 	  - Qual foi o menor valor ímpar digitado;
 	  Autor: Isaque
-     */
+   */
 	funcao inicio()
 	{
 		
