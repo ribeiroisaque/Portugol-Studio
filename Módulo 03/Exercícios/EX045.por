@@ -1,13 +1,14 @@
 programa
 {
-	/*
+	
+   /*
 	  EX045: Faça um jogo de adivinhação onde o computador sorteie
 	  um número entre 1 e 10 e o jogador vai tentar acertar qual foi
 	  o número "pensado" pelo computador. O jogador terá 3 chances de
 	  acertar e o programa vai dizer se cada chute dele foi alto demais
 	  ou baixo demais para ajuda-lo a descobrir o número.
 	  Autor: Isaque
-     */
+   */
 	funcao inicio()
 	{
 		
